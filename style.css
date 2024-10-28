@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+  width: auto;
+  margin: 0;
+  padding:0;
+  font-family: "Playfair Display", serif;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1561487767-1f32d174cce0");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner p{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  color:white
+}
+
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  color: #A0A0A0;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  font-family: "Playfair Display", serif;
+}
+
+a{
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  text-decoration:none;
+}
+
+a:hover{
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+/* Media queries */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
